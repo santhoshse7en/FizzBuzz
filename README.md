@@ -7,4 +7,4 @@ Simple python program which iterates the integers from 1 to 50. For multiples of
 
 Usage
 =====
-python main.py
+`python main.py`
