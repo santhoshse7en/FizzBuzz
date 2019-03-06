@@ -1,11 +1,20 @@
+# Python program to print Fizz Buzz, loop for 50 times i.e. range 
 for fizzbuzz in range(50):
+    
+    # number divisible by 15 (divisible by both 3 & 5), print 'FizzBuzz' in place of the number
     if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
-        print("fizzbuzz")
+        print('FizzBuzz')
         continue
+        
+    # number divisible by 3, print 'Fizz' in place of the number 
     elif fizzbuzz % 3 == 0:
-        print("fizz")
+        print('Fizz')
         continue
+        
+    # number divisible by 5, print 'Buzz' in place of the number   
     elif fizzbuzz % 5 == 0:
-        print("buzz")
+        print('Buzz')
         continue
+        
+    # print numbers
     print(fizzbuzz)
